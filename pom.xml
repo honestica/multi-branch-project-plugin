@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.mjdetullio.jenkins.plugins</groupId>
+	<groupId>com.honestica.jenkins.plugins</groupId>
 	<artifactId>multi-branch-project-plugin</artifactId>
 	<version>0.4.1</version>
 	<packaging>hpi</packaging>
@@ -12,7 +12,7 @@
 		<version>1.609.1</version>
 	</parent>
 
-	<name>Multi-Branch Project Plugin</name>
+	<name>Honestica Multi-Branch Project Plugin</name>
 	<description>
 		This plugin adds additional project types that create sub-projects
 		for each branch using a shared configuration.
@@ -31,7 +31,7 @@
 		<connection>scm:git:git://github.com/mjdetullio/multi-branch-project-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:mjdetullio/multi-branch-project-plugin.git</developerConnection>
 		<url>https://github.com/mjdetullio/multi-branch-project-plugin</url>
-		<tag>multi-branch-project-plugin-0.4.1</tag>
+		<tag>honestica-multi-branch-project-plugin-0.4.1</tag>
 	</scm>
 
 	<issueManagement>

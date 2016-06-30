@@ -1,4 +1,4 @@
-package com.github.mjdetullio.jenkins.plugins.multibranch;
+package com.honestica.jenkins.plugins.multibranch;
 
 import com.cloudbees.hudson.plugins.folder.computed.FolderComputation;
 import hudson.init.InitMilestone;

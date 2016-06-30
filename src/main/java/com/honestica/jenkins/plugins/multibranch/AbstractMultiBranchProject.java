@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.github.mjdetullio.jenkins.plugins.multibranch;
+package com.honestica.jenkins.plugins.multibranch;
 
 import com.cloudbees.hudson.plugins.folder.computed.ChildObserver;
 import com.cloudbees.hudson.plugins.folder.computed.ComputedFolder;
@@ -561,7 +561,7 @@ public abstract class AbstractMultiBranchProject<P extends AbstractProject<P, B>
 
     protected String encodeBranchName(String branchName)
     {
-        return Util.rawEncode(branchName).replace("%2F","___");
+        return Util.rawEncode(branchName).replace("%2F","_2F");
     }
 
     /**
@@ -1010,7 +1010,7 @@ public abstract class AbstractMultiBranchProject<P extends AbstractProject<P, B>
      * @return the decoded string.
      */
     public static String rawDecode(String s) {
-        s = s.replace("___", "%2F");
+        s = s.replace("_2F", "%2F");
 
         final byte[] bytes; // should be US-ASCII but we can be tolerant
         try {

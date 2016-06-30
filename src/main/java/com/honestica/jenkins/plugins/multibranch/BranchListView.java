@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.github.mjdetullio.jenkins.plugins.multibranch;
+package com.honestica.jenkins.plugins.multibranch;
 
 import hudson.Extension;
 import hudson.init.InitMilestone;
